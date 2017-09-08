@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14F4813B1F623C370065FB4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F4813A1F623C370065FB4D /* AppDelegate.swift */; };
+		14F4813D1F623C370065FB4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F4813C1F623C370065FB4D /* ViewController.swift */; };
+		14F481401F623C370065FB4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14F4813E1F623C370065FB4D /* Main.storyboard */; };
+		14F481421F623C370065FB4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14F481411F623C370065FB4D /* Assets.xcassets */; };
+		14F481451F623C370065FB4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14F481431F623C370065FB4D /* LaunchScreen.storyboard */; };
+		14F481501F623C370065FB4D /* TNCalendarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F4814F1F623C370065FB4D /* TNCalendarTests.swift */; };
+		14F4815B1F623C370065FB4D /* TNCalendarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F4815A1F623C370065FB4D /* TNCalendarUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		14F4814C1F623C370065FB4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14F4812F1F623C370065FB4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14F481361F623C370065FB4D;
+			remoteInfo = TNCalendar;
+		};
+		14F481571F623C370065FB4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14F4812F1F623C370065FB4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14F481361F623C370065FB4D;
+			remoteInfo = TNCalendar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14F481371F623C370065FB4D /* TNCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TNCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14F4813A1F623C370065FB4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		14F4813C1F623C370065FB4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		14F4813F1F623C370065FB4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		14F481411F623C370065FB4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14F481441F623C370065FB4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		14F481461F623C370065FB4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14F4814B1F623C370065FB4D /* TNCalendarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TNCalendarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14F4814F1F623C370065FB4D /* TNCalendarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TNCalendarTests.swift; sourceTree = "<group>"; };
+		14F481511F623C370065FB4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14F481561F623C370065FB4D /* TNCalendarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TNCalendarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14F4815A1F623C370065FB4D /* TNCalendarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TNCalendarUITests.swift; sourceTree = "<group>"; };
+		14F4815C1F623C370065FB4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14F481341F623C370065FB4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14F481481F623C370065FB4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14F481531F623C370065FB4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14F4812E1F623C370065FB4D = {
+			isa = PBXGroup;
+			children = (
+				14F481391F623C370065FB4D /* TNCalendar */,
+				14F4814E1F623C370065FB4D /* TNCalendarTests */,
+				14F481591F623C370065FB4D /* TNCalendarUITests */,
+				14F481381F623C370065FB4D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14F481381F623C370065FB4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14F481371F623C370065FB4D /* TNCalendar.app */,
+				14F4814B1F623C370065FB4D /* TNCalendarTests.xctest */,
+				14F481561F623C370065FB4D /* TNCalendarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14F481391F623C370065FB4D /* TNCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				14F4813A1F623C370065FB4D /* AppDelegate.swift */,
+				14F4813C1F623C370065FB4D /* ViewController.swift */,
+				14F4813E1F623C370065FB4D /* Main.storyboard */,
+				14F481411F623C370065FB4D /* Assets.xcassets */,
+				14F481431F623C370065FB4D /* LaunchScreen.storyboard */,
+				14F481461F623C370065FB4D /* Info.plist */,
+			);
+			path = TNCalendar;
+			sourceTree = "<group>";
+		};
+		14F4814E1F623C370065FB4D /* TNCalendarTests */ = {
+			isa = PBXGroup;
+			children = (
+				14F4814F1F623C370065FB4D /* TNCalendarTests.swift */,
+				14F481511F623C370065FB4D /* Info.plist */,
+			);
+			path = TNCalendarTests;
+			sourceTree = "<group>";
+		};
+		14F481591F623C370065FB4D /* TNCalendarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				14F4815A1F623C370065FB4D /* TNCalendarUITests.swift */,
+				14F4815C1F623C370065FB4D /* Info.plist */,
+			);
+			path = TNCalendarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14F481361F623C370065FB4D /* TNCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14F4815F1F623C370065FB4D /* Build configuration list for PBXNativeTarget "TNCalendar" */;
+			buildPhases = (
+				14F481331F623C370065FB4D /* Sources */,
+				14F481341F623C370065FB4D /* Frameworks */,
+				14F481351F623C370065FB4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TNCalendar;
+			productName = TNCalendar;
+			productReference = 14F481371F623C370065FB4D /* TNCalendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		14F4814A1F623C370065FB4D /* TNCalendarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14F481621F623C370065FB4D /* Build configuration list for PBXNativeTarget "TNCalendarTests" */;
+			buildPhases = (
+				14F481471F623C370065FB4D /* Sources */,
+				14F481481F623C370065FB4D /* Frameworks */,
+				14F481491F623C370065FB4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14F4814D1F623C370065FB4D /* PBXTargetDependency */,
+			);
+			name = TNCalendarTests;
+			productName = TNCalendarTests;
+			productReference = 14F4814B1F623C370065FB4D /* TNCalendarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		14F481551F623C370065FB4D /* TNCalendarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14F481651F623C370065FB4D /* Build configuration list for PBXNativeTarget "TNCalendarUITests" */;
+			buildPhases = (
+				14F481521F623C370065FB4D /* Sources */,
+				14F481531F623C370065FB4D /* Frameworks */,
+				14F481541F623C370065FB4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14F481581F623C370065FB4D /* PBXTargetDependency */,
+			);
+			name = TNCalendarUITests;
+			productName = TNCalendarUITests;
+			productReference = 14F481561F623C370065FB4D /* TNCalendarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14F4812F1F623C370065FB4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = merrill;
+				TargetAttributes = {
+					14F481361F623C370065FB4D = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = VKU2TSZ7H9;
+						ProvisioningStyle = Automatic;
+					};
+					14F4814A1F623C370065FB4D = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = VKU2TSZ7H9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 14F481361F623C370065FB4D;
+					};
+					14F481551F623C370065FB4D = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = VKU2TSZ7H9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 14F481361F623C370065FB4D;
+					};
+				};
+			};
+			buildConfigurationList = 14F481321F623C370065FB4D /* Build configuration list for PBXProject "TNCalendar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14F4812E1F623C370065FB4D;
+			productRefGroup = 14F481381F623C370065FB4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14F481361F623C370065FB4D /* TNCalendar */,
+				14F4814A1F623C370065FB4D /* TNCalendarTests */,
+				14F481551F623C370065FB4D /* TNCalendarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14F481351F623C370065FB4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14F481451F623C370065FB4D /* LaunchScreen.storyboard in Resources */,
+				14F481421F623C370065FB4D /* Assets.xcassets in Resources */,
+				14F481401F623C370065FB4D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14F481491F623C370065FB4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14F481541F623C370065FB4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14F481331F623C370065FB4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14F4813D1F623C370065FB4D /* ViewController.swift in Sources */,
+				14F4813B1F623C370065FB4D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14F481471F623C370065FB4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14F481501F623C370065FB4D /* TNCalendarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14F481521F623C370065FB4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14F4815B1F623C370065FB4D /* TNCalendarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14F4814D1F623C370065FB4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14F481361F623C370065FB4D /* TNCalendar */;
+			targetProxy = 14F4814C1F623C370065FB4D /* PBXContainerItemProxy */;
+		};
+		14F481581F623C370065FB4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14F481361F623C370065FB4D /* TNCalendar */;
+			targetProxy = 14F481571F623C370065FB4D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		14F4813E1F623C370065FB4D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14F4813F1F623C370065FB4D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		14F481431F623C370065FB4D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14F481441F623C370065FB4D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14F4815D1F623C370065FB4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		14F4815E1F623C370065FB4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14F481601F623C370065FB4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VKU2TSZ7H9;
+				INFOPLIST_FILE = TNCalendar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qibaibike.TNCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		14F481611F623C370065FB4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VKU2TSZ7H9;
+				INFOPLIST_FILE = TNCalendar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qibaibike.TNCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		14F481631F623C370065FB4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = VKU2TSZ7H9;
+				INFOPLIST_FILE = TNCalendarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qibaibike.TNCalendarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TNCalendar.app/TNCalendar";
+			};
+			name = Debug;
+		};
+		14F481641F623C370065FB4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = VKU2TSZ7H9;
+				INFOPLIST_FILE = TNCalendarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qibaibike.TNCalendarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TNCalendar.app/TNCalendar";
+			};
+			name = Release;
+		};
+		14F481661F623C370065FB4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = VKU2TSZ7H9;
+				INFOPLIST_FILE = TNCalendarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qibaibike.TNCalendarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TNCalendar;
+			};
+			name = Debug;
+		};
+		14F481671F623C370065FB4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = VKU2TSZ7H9;
+				INFOPLIST_FILE = TNCalendarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qibaibike.TNCalendarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TNCalendar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14F481321F623C370065FB4D /* Build configuration list for PBXProject "TNCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14F4815D1F623C370065FB4D /* Debug */,
+				14F4815E1F623C370065FB4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14F4815F1F623C370065FB4D /* Build configuration list for PBXNativeTarget "TNCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14F481601F623C370065FB4D /* Debug */,
+				14F481611F623C370065FB4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		14F481621F623C370065FB4D /* Build configuration list for PBXNativeTarget "TNCalendarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14F481631F623C370065FB4D /* Debug */,
+				14F481641F623C370065FB4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		14F481651F623C370065FB4D /* Build configuration list for PBXNativeTarget "TNCalendarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14F481661F623C370065FB4D /* Debug */,
+				14F481671F623C370065FB4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14F4812F1F623C370065FB4D /* Project object */;
+}
