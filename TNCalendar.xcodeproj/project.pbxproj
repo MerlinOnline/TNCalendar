@@ -7,13 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		14F4813B1F623C370065FB4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F4813A1F623C370065FB4D /* AppDelegate.swift */; };
-		14F4813D1F623C370065FB4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F4813C1F623C370065FB4D /* ViewController.swift */; };
-		14F481401F623C370065FB4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14F4813E1F623C370065FB4D /* Main.storyboard */; };
+		14175BE81F7E2B070006BE3F /* TNLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14175BE71F7E2B070006BE3F /* TNLoginViewController.swift */; };
+		1440BCB91F948AE800A217E0 /* TNChallengeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1440BCB81F948AE800A217E0 /* TNChallengeViewController.swift */; };
+		144CC0FD1F906CDA00580629 /* TNMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144CC0FC1F906CDA00580629 /* TNMapViewController.swift */; };
+		1455D9681F9494C3006EED59 /* TNTabBarBgView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1455D9671F9494C3006EED59 /* TNTabBarBgView.swift */; };
+		1455D96A1F94A21D006EED59 /* TNFeedsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1455D9691F94A21D006EED59 /* TNFeedsViewController.swift */; };
+		1455D96C1F94A3E4006EED59 /* TNMeTableHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1455D96B1F94A3E4006EED59 /* TNMeTableHeader.swift */; };
+		145A7E0C1F6A57F2007BC057 /* TNMePublicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145A7E0B1F6A57F2007BC057 /* TNMePublicCell.swift */; };
+		14B5C11F1F6948FC004ED1B5 /* TNMeInfomationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B5C11E1F6948FC004ED1B5 /* TNMeInfomationCell.swift */; };
+		14C96A991F8E007F002A81EF /* TNPhoneLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C96A981F8E007F002A81EF /* TNPhoneLoginViewController.swift */; };
 		14F481421F623C370065FB4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14F481411F623C370065FB4D /* Assets.xcassets */; };
-		14F481451F623C370065FB4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14F481431F623C370065FB4D /* LaunchScreen.storyboard */; };
 		14F481501F623C370065FB4D /* TNCalendarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F4814F1F623C370065FB4D /* TNCalendarTests.swift */; };
 		14F4815B1F623C370065FB4D /* TNCalendarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F4815A1F623C370065FB4D /* TNCalendarUITests.swift */; };
+		14F481791F62424D0065FB4D /* TNAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F481751F62424D0065FB4D /* TNAppDelegate.swift */; };
+		14F4817A1F62424D0065FB4D /* TNBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F481761F62424D0065FB4D /* TNBaseViewController.swift */; };
+		14F4817B1F62424D0065FB4D /* TNMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F481771F62424D0065FB4D /* TNMainViewController.swift */; };
+		14F4817C1F62424D0065FB4D /* TNNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F481781F62424D0065FB4D /* TNNavigationController.swift */; };
+		14F4817E1F6243300065FB4D /* TNTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F4817D1F6243300065FB4D /* TNTabBarController.swift */; };
+		14F481841F6244130065FB4D /* TNHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F481831F6244130065FB4D /* TNHomeViewController.swift */; };
+		14F481861F6244240065FB4D /* TNDiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F481851F6244240065FB4D /* TNDiscoverViewController.swift */; };
+		14F481881F62442E0065FB4D /* TNMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F481871F62442E0065FB4D /* TNMeViewController.swift */; };
+		14F4818A1F62443B0065FB4D /* TNMomentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F481891F62443B0065FB4D /* TNMomentViewController.swift */; };
+		14F4818C1F624D060065FB4D /* TNDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F4818B1F624D060065FB4D /* TNDefine.swift */; };
+		19B45435EBEC16CC5C2E0943 /* Pods_TNCalendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D119EFD7C38FC56827E5EA09 /* Pods_TNCalendar.framework */; };
+		29ED5365E317A839182F6ADD /* Pods_TNCalendarTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 420006E81CAD569ED776118D /* Pods_TNCalendarTests.framework */; };
+		F11D6E454B152353AEDB7923 /* Pods_TNCalendarUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 873865CE6B0EE695612396E6 /* Pods_TNCalendarUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +52,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		14175BE71F7E2B070006BE3F /* TNLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TNLoginViewController.swift; sourceTree = "<group>"; };
+		1440BCB81F948AE800A217E0 /* TNChallengeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TNChallengeViewController.swift; sourceTree = "<group>"; };
+		144CC0FC1F906CDA00580629 /* TNMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TNMapViewController.swift; sourceTree = "<group>"; };
+		1455D9671F9494C3006EED59 /* TNTabBarBgView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TNTabBarBgView.swift; sourceTree = "<group>"; };
+		1455D9691F94A21D006EED59 /* TNFeedsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TNFeedsViewController.swift; sourceTree = "<group>"; };
+		1455D96B1F94A3E4006EED59 /* TNMeTableHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TNMeTableHeader.swift; sourceTree = "<group>"; };
+		145A7E0B1F6A57F2007BC057 /* TNMePublicCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TNMePublicCell.swift; sourceTree = "<group>"; };
+		14B5C11E1F6948FC004ED1B5 /* TNMeInfomationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TNMeInfomationCell.swift; sourceTree = "<group>"; };
+		14C96A981F8E007F002A81EF /* TNPhoneLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TNPhoneLoginViewController.swift; sourceTree = "<group>"; };
 		14F481371F623C370065FB4D /* TNCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TNCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		14F4813A1F623C370065FB4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		14F4813C1F623C370065FB4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		14F4813F1F623C370065FB4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		14F481411F623C370065FB4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		14F481441F623C370065FB4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		14F481461F623C370065FB4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14F4814B1F623C370065FB4D /* TNCalendarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TNCalendarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		14F4814F1F623C370065FB4D /* TNCalendarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TNCalendarTests.swift; sourceTree = "<group>"; };
@@ -47,6 +70,25 @@
 		14F481561F623C370065FB4D /* TNCalendarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TNCalendarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		14F4815A1F623C370065FB4D /* TNCalendarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TNCalendarUITests.swift; sourceTree = "<group>"; };
 		14F4815C1F623C370065FB4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14F481751F62424D0065FB4D /* TNAppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TNAppDelegate.swift; sourceTree = "<group>"; };
+		14F481761F62424D0065FB4D /* TNBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TNBaseViewController.swift; sourceTree = "<group>"; };
+		14F481771F62424D0065FB4D /* TNMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TNMainViewController.swift; sourceTree = "<group>"; };
+		14F481781F62424D0065FB4D /* TNNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TNNavigationController.swift; sourceTree = "<group>"; };
+		14F4817D1F6243300065FB4D /* TNTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TNTabBarController.swift; sourceTree = "<group>"; };
+		14F481831F6244130065FB4D /* TNHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TNHomeViewController.swift; sourceTree = "<group>"; };
+		14F481851F6244240065FB4D /* TNDiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TNDiscoverViewController.swift; sourceTree = "<group>"; };
+		14F481871F62442E0065FB4D /* TNMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TNMeViewController.swift; sourceTree = "<group>"; };
+		14F481891F62443B0065FB4D /* TNMomentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TNMomentViewController.swift; sourceTree = "<group>"; };
+		14F4818B1F624D060065FB4D /* TNDefine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TNDefine.swift; path = TNCalendar/TNDefine.swift; sourceTree = SOURCE_ROOT; };
+		16CF34C553AFBB86C708DA99 /* Pods-TNCalendar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TNCalendar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TNCalendar/Pods-TNCalendar.debug.xcconfig"; sourceTree = "<group>"; };
+		38DA156D2A3E3DB1F41FD1D7 /* Pods-TNCalendarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TNCalendarTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TNCalendarTests/Pods-TNCalendarTests.release.xcconfig"; sourceTree = "<group>"; };
+		420006E81CAD569ED776118D /* Pods_TNCalendarTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TNCalendarTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7562933B1FEA965DF80C0615 /* Pods-TNCalendar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TNCalendar.release.xcconfig"; path = "Pods/Target Support Files/Pods-TNCalendar/Pods-TNCalendar.release.xcconfig"; sourceTree = "<group>"; };
+		873865CE6B0EE695612396E6 /* Pods_TNCalendarUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TNCalendarUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A34882B943E2856874439D45 /* Pods-TNCalendarUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TNCalendarUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TNCalendarUITests/Pods-TNCalendarUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A4241528C82DD13E6EDEAE69 /* Pods-TNCalendarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TNCalendarTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TNCalendarTests/Pods-TNCalendarTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B60CD9D90D4122136CC31CD9 /* Pods-TNCalendarUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TNCalendarUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TNCalendarUITests/Pods-TNCalendarUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D119EFD7C38FC56827E5EA09 /* Pods_TNCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TNCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19B45435EBEC16CC5C2E0943 /* Pods_TNCalendar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29ED5365E317A839182F6ADD /* Pods_TNCalendarTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +112,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F11D6E454B152353AEDB7923 /* Pods_TNCalendarUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14175BE61F7E2AE40006BE3F /* LoginModules */ = {
+			isa = PBXGroup;
+			children = (
+				14175BE71F7E2B070006BE3F /* TNLoginViewController.swift */,
+				14C96A981F8E007F002A81EF /* TNPhoneLoginViewController.swift */,
+			);
+			path = LoginModules;
+			sourceTree = "<group>";
+		};
+		1440BCB71F948A4300A217E0 /* ChanllengeModules */ = {
+			isa = PBXGroup;
+			children = (
+				1440BCB81F948AE800A217E0 /* TNChallengeViewController.swift */,
+			);
+			path = ChanllengeModules;
+			sourceTree = "<group>";
+		};
+		144CC0FB1F906C7D00580629 /* mapViews */ = {
+			isa = PBXGroup;
+			children = (
+				144CC0FC1F906CDA00580629 /* TNMapViewController.swift */,
+			);
+			path = mapViews;
+			sourceTree = "<group>";
+		};
 		14F4812E1F623C370065FB4D = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +151,8 @@
 				14F4814E1F623C370065FB4D /* TNCalendarTests */,
 				14F481591F623C370065FB4D /* TNCalendarUITests */,
 				14F481381F623C370065FB4D /* Products */,
+				C47FDDBAE59625519C4F2745 /* Pods */,
+				94337B9E7984C5AA245CEDBE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,11 +169,16 @@
 		14F481391F623C370065FB4D /* TNCalendar */ = {
 			isa = PBXGroup;
 			children = (
-				14F4813A1F623C370065FB4D /* AppDelegate.swift */,
-				14F4813C1F623C370065FB4D /* ViewController.swift */,
-				14F4813E1F623C370065FB4D /* Main.storyboard */,
+				14F4818B1F624D060065FB4D /* TNDefine.swift */,
+				14F481741F62424D0065FB4D /* MainModules */,
+				14F4817F1F6243D00065FB4D /* DiscoverModules */,
+				14F481811F6243D00065FB4D /* MeModules */,
+				144CC0FB1F906C7D00580629 /* mapViews */,
+				14F481821F6243D00065FB4D /* MomentModules */,
+				1440BCB71F948A4300A217E0 /* ChanllengeModules */,
+				14F481801F6243D00065FB4D /* HomeModules */,
+				14175BE61F7E2AE40006BE3F /* LoginModules */,
 				14F481411F623C370065FB4D /* Assets.xcassets */,
-				14F481431F623C370065FB4D /* LaunchScreen.storyboard */,
 				14F481461F623C370065FB4D /* Info.plist */,
 			);
 			path = TNCalendar;
@@ -125,6 +202,78 @@
 			path = TNCalendarUITests;
 			sourceTree = "<group>";
 		};
+		14F481741F62424D0065FB4D /* MainModules */ = {
+			isa = PBXGroup;
+			children = (
+				14F481751F62424D0065FB4D /* TNAppDelegate.swift */,
+				14F4817D1F6243300065FB4D /* TNTabBarController.swift */,
+				14F481781F62424D0065FB4D /* TNNavigationController.swift */,
+				14F481761F62424D0065FB4D /* TNBaseViewController.swift */,
+				14F481771F62424D0065FB4D /* TNMainViewController.swift */,
+				1455D9671F9494C3006EED59 /* TNTabBarBgView.swift */,
+			);
+			path = MainModules;
+			sourceTree = "<group>";
+		};
+		14F4817F1F6243D00065FB4D /* DiscoverModules */ = {
+			isa = PBXGroup;
+			children = (
+				14F481851F6244240065FB4D /* TNDiscoverViewController.swift */,
+			);
+			path = DiscoverModules;
+			sourceTree = "<group>";
+		};
+		14F481801F6243D00065FB4D /* HomeModules */ = {
+			isa = PBXGroup;
+			children = (
+				14F481831F6244130065FB4D /* TNHomeViewController.swift */,
+			);
+			path = HomeModules;
+			sourceTree = "<group>";
+		};
+		14F481811F6243D00065FB4D /* MeModules */ = {
+			isa = PBXGroup;
+			children = (
+				14F481871F62442E0065FB4D /* TNMeViewController.swift */,
+				1455D96B1F94A3E4006EED59 /* TNMeTableHeader.swift */,
+				14B5C11E1F6948FC004ED1B5 /* TNMeInfomationCell.swift */,
+				145A7E0B1F6A57F2007BC057 /* TNMePublicCell.swift */,
+			);
+			path = MeModules;
+			sourceTree = "<group>";
+		};
+		14F481821F6243D00065FB4D /* MomentModules */ = {
+			isa = PBXGroup;
+			children = (
+				14F481891F62443B0065FB4D /* TNMomentViewController.swift */,
+				1455D9691F94A21D006EED59 /* TNFeedsViewController.swift */,
+			);
+			path = MomentModules;
+			sourceTree = "<group>";
+		};
+		94337B9E7984C5AA245CEDBE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D119EFD7C38FC56827E5EA09 /* Pods_TNCalendar.framework */,
+				420006E81CAD569ED776118D /* Pods_TNCalendarTests.framework */,
+				873865CE6B0EE695612396E6 /* Pods_TNCalendarUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C47FDDBAE59625519C4F2745 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				16CF34C553AFBB86C708DA99 /* Pods-TNCalendar.debug.xcconfig */,
+				7562933B1FEA965DF80C0615 /* Pods-TNCalendar.release.xcconfig */,
+				A4241528C82DD13E6EDEAE69 /* Pods-TNCalendarTests.debug.xcconfig */,
+				38DA156D2A3E3DB1F41FD1D7 /* Pods-TNCalendarTests.release.xcconfig */,
+				A34882B943E2856874439D45 /* Pods-TNCalendarUITests.debug.xcconfig */,
+				B60CD9D90D4122136CC31CD9 /* Pods-TNCalendarUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +281,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 14F4815F1F623C370065FB4D /* Build configuration list for PBXNativeTarget "TNCalendar" */;
 			buildPhases = (
+				C366D00A2135395DEEADB24A /* [CP] Check Pods Manifest.lock */,
 				14F481331F623C370065FB4D /* Sources */,
 				14F481341F623C370065FB4D /* Frameworks */,
 				14F481351F623C370065FB4D /* Resources */,
+				FD128501646434C0F0851F0F /* [CP] Embed Pods Frameworks */,
+				DB6420D2BC3441D950B65416 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +301,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 14F481621F623C370065FB4D /* Build configuration list for PBXNativeTarget "TNCalendarTests" */;
 			buildPhases = (
+				92BF1E7368117CB87BF3959D /* [CP] Check Pods Manifest.lock */,
 				14F481471F623C370065FB4D /* Sources */,
 				14F481481F623C370065FB4D /* Frameworks */,
 				14F481491F623C370065FB4D /* Resources */,
+				7D593FF0E6B8A9CBCAB49B89 /* [CP] Embed Pods Frameworks */,
+				94364E862C5B2A29CC0F7429 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +322,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 14F481651F623C370065FB4D /* Build configuration list for PBXNativeTarget "TNCalendarUITests" */;
 			buildPhases = (
+				4392C0E971F62A2FEE1E28B5 /* [CP] Check Pods Manifest.lock */,
 				14F481521F623C370065FB4D /* Sources */,
 				14F481531F623C370065FB4D /* Frameworks */,
 				14F481541F623C370065FB4D /* Resources */,
+				5C9B9503904E308E48DBB9E2 /* [CP] Embed Pods Frameworks */,
+				2ED5924185498BA635A06F76 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -187,6 +345,7 @@
 		14F4812F1F623C370065FB4D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = TN;
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = merrill;
@@ -235,9 +394,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14F481451F623C370065FB4D /* LaunchScreen.storyboard in Resources */,
 				14F481421F623C370065FB4D /* Assets.xcassets in Resources */,
-				14F481401F623C370065FB4D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,13 +414,188 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2ED5924185498BA635A06F76 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TNCalendarUITests/Pods-TNCalendarUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4392C0E971F62A2FEE1E28B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TNCalendarUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C9B9503904E308E48DBB9E2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TNCalendarUITests/Pods-TNCalendarUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D593FF0E6B8A9CBCAB49B89 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TNCalendarTests/Pods-TNCalendarTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92BF1E7368117CB87BF3959D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TNCalendarTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94364E862C5B2A29CC0F7429 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TNCalendarTests/Pods-TNCalendarTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C366D00A2135395DEEADB24A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TNCalendar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB6420D2BC3441D950B65416 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TNCalendar/Pods-TNCalendar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD128501646434C0F0851F0F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TNCalendar/Pods-TNCalendar-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/GearRefreshControl/GearRefreshControl.framework",
+				"${BUILT_PRODUCTS_DIR}/Refresher/Refresher.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GearRefreshControl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Refresher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TNCalendar/Pods-TNCalendar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		14F481331F623C370065FB4D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14F4813D1F623C370065FB4D /* ViewController.swift in Sources */,
-				14F4813B1F623C370065FB4D /* AppDelegate.swift in Sources */,
+				1455D96C1F94A3E4006EED59 /* TNMeTableHeader.swift in Sources */,
+				14F481791F62424D0065FB4D /* TNAppDelegate.swift in Sources */,
+				14F481861F6244240065FB4D /* TNDiscoverViewController.swift in Sources */,
+				14F481841F6244130065FB4D /* TNHomeViewController.swift in Sources */,
+				14175BE81F7E2B070006BE3F /* TNLoginViewController.swift in Sources */,
+				1455D9681F9494C3006EED59 /* TNTabBarBgView.swift in Sources */,
+				144CC0FD1F906CDA00580629 /* TNMapViewController.swift in Sources */,
+				14F4817C1F62424D0065FB4D /* TNNavigationController.swift in Sources */,
+				14F4817B1F62424D0065FB4D /* TNMainViewController.swift in Sources */,
+				14C96A991F8E007F002A81EF /* TNPhoneLoginViewController.swift in Sources */,
+				14F4818A1F62443B0065FB4D /* TNMomentViewController.swift in Sources */,
+				14B5C11F1F6948FC004ED1B5 /* TNMeInfomationCell.swift in Sources */,
+				14F4818C1F624D060065FB4D /* TNDefine.swift in Sources */,
+				14F4817A1F62424D0065FB4D /* TNBaseViewController.swift in Sources */,
+				14F481881F62442E0065FB4D /* TNMeViewController.swift in Sources */,
+				1455D96A1F94A21D006EED59 /* TNFeedsViewController.swift in Sources */,
+				145A7E0C1F6A57F2007BC057 /* TNMePublicCell.swift in Sources */,
+				1440BCB91F948AE800A217E0 /* TNChallengeViewController.swift in Sources */,
+				14F4817E1F6243300065FB4D /* TNTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,25 +629,6 @@
 			targetProxy = 14F481571F623C370065FB4D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		14F4813E1F623C370065FB4D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				14F4813F1F623C370065FB4D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		14F481431F623C370065FB4D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				14F481441F623C370065FB4D /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		14F4815D1F623C370065FB4D /* Debug */ = {
@@ -415,32 +728,41 @@
 		};
 		14F481601F623C370065FB4D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16CF34C553AFBB86C708DA99 /* Pods-TNCalendar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = VKU2TSZ7H9;
 				INFOPLIST_FILE = TNCalendar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.qibaibike.TNCalendar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		14F481611F623C370065FB4D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7562933B1FEA965DF80C0615 /* Pods-TNCalendar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = VKU2TSZ7H9;
 				INFOPLIST_FILE = TNCalendar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.qibaibike.TNCalendar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		14F481631F623C370065FB4D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4241528C82DD13E6EDEAE69 /* Pods-TNCalendarTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -456,6 +778,7 @@
 		};
 		14F481641F623C370065FB4D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38DA156D2A3E3DB1F41FD1D7 /* Pods-TNCalendarTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +794,7 @@
 		};
 		14F481661F623C370065FB4D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A34882B943E2856874439D45 /* Pods-TNCalendarUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = VKU2TSZ7H9;
@@ -485,6 +809,7 @@
 		};
 		14F481671F623C370065FB4D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B60CD9D90D4122136CC31CD9 /* Pods-TNCalendarUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = VKU2TSZ7H9;
@@ -516,6 +841,7 @@
 				14F481611F623C370065FB4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		14F481621F623C370065FB4D /* Build configuration list for PBXNativeTarget "TNCalendarTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +850,7 @@
 				14F481641F623C370065FB4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		14F481651F623C370065FB4D /* Build configuration list for PBXNativeTarget "TNCalendarUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +859,7 @@
 				14F481671F623C370065FB4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
